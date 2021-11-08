@@ -8,7 +8,7 @@
 }
 
 .component-emoji-result-row:hover {
-  background-color: #eee;
+  background-color: rgb(114, 150, 145);
 }
 
 .component-emoji-result-row img {
@@ -16,7 +16,11 @@
   height: 32px;
   padding-right: 10px;
 }
-
+.component-emoji-result-row .code {
+  position: relative;
+  top: -8px;
+  padding-right: 10px;
+}
 .component-emoji-result-row .title {
   position: relative;
   top: -8px;
